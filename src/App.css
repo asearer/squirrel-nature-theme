@@ -35,10 +35,14 @@ main {
   padding: 2em;
 }
 
-.gallery img {
-  width: 30%;
-  margin: 1%;
-  border: 2px solid #ccc;
+.carousel {
+  margin: 2em auto;
+  width: 80%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
 }
 
 footer {
