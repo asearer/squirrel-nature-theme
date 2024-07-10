@@ -8,7 +8,7 @@ const Home = () => (
       <div className="hero-content">
         <h1>Welcome to Frank the Squirrel's World</h1>
         <p>Explore the wonderful world of squirrels in their natural habitat.</p>
-        <button className="cta-button">Learn More</button>
+        {/* <button className="cta-button">Learn More</button> */}
       </div>
     </section>
 
