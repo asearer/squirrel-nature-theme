@@ -1,17 +1,10 @@
+// ImageCarousel.js
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const ImageCarousel = () => {
-  const images = [
-    "https://placekitten.com/400/300",
-    "https://placekitten.com/401/301",
-    "https://placekitten.com/402/302",
-    "https://placekitten.com/403/303",
-    "https://placekitten.com/404/304"
-  ];
-
+const ImageCarousel = ({ images }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -36,3 +29,4 @@ const ImageCarousel = () => {
 };
 
 export default ImageCarousel;
+
